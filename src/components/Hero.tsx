@@ -4,19 +4,30 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-primary/5 to-accent/5 py-16">
-      <div className="container mx-auto px-4">
+    <section className="relative py-16 overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/lovable-uploads/831099f9-2c2e-4ef0-aeee-00a1ac6b7cf8.png"
+          alt="Professional towing service"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70" />
+      </div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-6xl font-bold text-primary mb-4">
+          <h2 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Emergency Car Towing
           </h2>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+          <p className="text-xl md:text-2xl text-white/90 mb-8">
             Fast, Reliable & Professional Service in Jaipur
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              className="text-lg px-8 py-6"
+              variant="accent"
+              className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all"
               onClick={() => window.open('tel:+919829254649')}
             >
               <Phone className="mr-2 h-5 w-5" />
@@ -25,7 +36,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="secondary"
-              className="text-lg px-8 py-6"
+              className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all bg-white/90 hover:bg-white text-primary"
               onClick={() => window.open('tel:+918386039829')}
             >
               <Phone className="mr-2 h-5 w-5" />
@@ -35,7 +46,7 @@ const Hero = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          <Card className="text-center">
+          <Card className="text-center bg-white/95 backdrop-blur-sm border-0 shadow-xl">
             <CardContent className="p-6">
               <Clock className="h-12 w-12 text-accent mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">24/7 Service</h3>
@@ -43,7 +54,7 @@ const Hero = () => {
             </CardContent>
           </Card>
           
-          <Card className="text-center">
+          <Card className="text-center bg-white/95 backdrop-blur-sm border-0 shadow-xl">
             <CardContent className="p-6">
               <Shield className="h-12 w-12 text-accent mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Safe & Secure</h3>
@@ -51,7 +62,7 @@ const Hero = () => {
             </CardContent>
           </Card>
           
-          <Card className="text-center">
+          <Card className="text-center bg-white/95 backdrop-blur-sm border-0 shadow-xl">
             <CardContent className="p-6">
               <Wrench className="h-12 w-12 text-accent mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Expert Team</h3>

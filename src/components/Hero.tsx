@@ -23,7 +23,7 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-white/90 mb-8">
             Fast, Reliable & Professional Service in Jaipur
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button 
               size="lg" 
               variant="accent"
@@ -32,15 +32,6 @@ const Hero = () => {
             >
               <Phone className="mr-2 h-5 w-5" />
               Call Now: 98292 54649
-            </Button>
-            <Button 
-              size="lg" 
-              variant="secondary"
-              className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all bg-white/90 hover:bg-white text-primary"
-              onClick={() => window.open('tel:+918386039829')}
-            >
-              <Phone className="mr-2 h-5 w-5" />
-              Emergency: 83860 39829
             </Button>
           </div>
         </div>

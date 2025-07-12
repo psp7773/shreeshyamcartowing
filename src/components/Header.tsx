@@ -15,26 +15,15 @@ const Header = () => {
               <MapPin className="h-4 w-4" />
               <span>Jaipur, Rajasthan</span>
             </div>
-            <div className="flex gap-2">
-              <Button 
-                variant="secondary" 
-                size="sm"
-                onClick={() => window.open('tel:+919829254649')}
-                className="flex items-center gap-2"
-              >
-                <Phone className="h-4 w-4" />
-                <span className="font-semibold">9829254649</span>
-              </Button>
-              <Button 
-                variant="accent" 
-                size="sm"
-                onClick={() => window.open('tel:+918386039829')}
-                className="flex items-center gap-2"
-              >
-                <Phone className="h-4 w-4" />
-                <span className="font-semibold">8386039829</span>
-              </Button>
-            </div>
+            <Button 
+              variant="secondary" 
+              size="sm"
+              onClick={() => window.open('tel:+919829254649')}
+              className="flex items-center gap-2"
+            >
+              <Phone className="h-4 w-4" />
+              <span className="font-semibold">9829254649</span>
+            </Button>
           </div>
         </div>
       </div>

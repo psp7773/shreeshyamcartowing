@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-4">
-            Emergency Car Towing
+            Car Towing
           </h2>
           <p className="text-xl md:text-2xl text-white/90 mb-8">
             Fast, Reliable & Professional Service in Jaipur

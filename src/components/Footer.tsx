@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Shree Shyam Car Towing Service</h3>
             <p className="text-sm opacity-90 leading-relaxed">
-              Your trusted partner for emergency car towing and roadside assistance in Jaipur. 
+              Your trusted partner for car towing and roadside assistance in Jaipur. 
               We're committed to providing fast, reliable, and professional service.
             </p>
           </div>

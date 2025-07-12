@@ -34,7 +34,7 @@ const Contact = () => {
           <Card className="text-center">
             <CardHeader>
               <Phone className="h-8 w-8 text-accent mx-auto" />
-              <CardTitle className="text-lg">Emergency Line</CardTitle>
+              <CardTitle className="text-lg">Contact Line</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="font-semibold text-lg mb-2">+91 8386039829</p>
@@ -44,7 +44,7 @@ const Contact = () => {
                 className="w-full"
                 onClick={() => window.open('tel:+918386039829')}
               >
-                Emergency Call
+                Call Now
               </Button>
             </CardContent>
           </Card>
@@ -71,7 +71,7 @@ const Contact = () => {
             <CardContent>
               <p className="font-semibold text-primary">24/7 Available</p>
               <p className="text-sm text-muted-foreground mt-2">
-                Emergency services<br />
+                Professional services<br />
                 available round the clock
               </p>
             </CardContent>
@@ -80,7 +80,7 @@ const Contact = () => {
         
         <div className="mt-12 text-center">
           <div className="bg-primary/10 rounded-lg p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-primary mb-4">Emergency? Call Immediately!</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">Need Help? Call Immediately!</h3>
             <p className="text-muted-foreground mb-6">
               Don't wait when you're stranded. Our team is ready to assist you 24/7.
             </p>

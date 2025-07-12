@@ -41,7 +41,7 @@ const Hero = () => {
             <CardContent className="p-6">
               <Clock className="h-12 w-12 text-accent mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">24/7 Service</h3>
-              <p className="text-muted-foreground">Round the clock emergency assistance</p>
+              <p className="text-muted-foreground">Round the clock roadside assistance</p>
             </CardContent>
           </Card>
           

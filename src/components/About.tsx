@@ -19,7 +19,7 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p className="text-lg leading-relaxed">
-                हमारी सेवा जयपुर में <strong>24/7 emergency car towing</strong> और roadside assistance प्रदान करती है। 
+                हमारी सेवा जयपुर में <strong>24/7 car towing</strong> और roadside assistance प्रदान करती है। 
                 हमारे पास experienced team और modern equipment है जो आपकी गाड़ी को safely handle करता है।
               </p>
               <p className="leading-relaxed">

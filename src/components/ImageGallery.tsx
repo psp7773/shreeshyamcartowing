@@ -13,7 +13,7 @@ const ImageGallery = () => {
     {
       src: "/lovable-uploads/bd510d95-b89c-44b7-8359-18f3482ea653.png",
       alt: "Roadside emergency towing service",
-      title: "Emergency Roadside Assistance"
+      title: "Roadside Assistance"
     },
     {
       src: "/lovable-uploads/831099f9-2c2e-4ef0-aeee-00a1ac6b7cf8.png",

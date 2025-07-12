@@ -31,7 +31,7 @@ const Services = () => {
     {
       icon: AlertTriangle,
       title: "Accident Recovery",
-      description: "Emergency recovery services for accident-damaged vehicles"
+      description: "Recovery services for accident-damaged vehicles"
     }
   ];
 

@@ -56,9 +56,9 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-sm leading-relaxed">
-                Near CKS Hospital<br />
-                V.K.I.A Area Road no. 6<br />
-                Sikar Road, Jaipur, Rajasthan
+                F-1, Bohra Bhawan, Opp. Lohamandi Road<br />
+                V.K.I. Area Road no. 14<br />
+                Jaipur, Rajasthan, Pincode - 302013
               </p>
             </CardContent>
           </Card>

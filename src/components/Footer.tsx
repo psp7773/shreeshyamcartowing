@@ -28,6 +28,10 @@ const Footer = () => {
                 <MapPin className="h-4 w-4 mt-0.5" />
                 <span>Near CKS Hospital, V.K.I.A Area Road no. 6, Sikar Road, Jaipur, Rajasthan</span>
               </div>
+              <div className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 mt-0.5" />
+                <span>F-1, Bohra Bhawan, Opp. Lohamandi Road, V.K.I. Area Road no. 14, Jaipur, Rajasthan, Pincode - 302013</span>
+              </div>
             </div>
           </div>
           

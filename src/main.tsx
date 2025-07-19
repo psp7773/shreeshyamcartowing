@@ -18,4 +18,7 @@ createRoot(document.getElementById("root")!).render(
       Speed tracking enabled 🚀
     </p> */}
   </React.StrictMode>
+);
+import { SpeedInsights } from "@vercel/speed-insights/react";
 )
+

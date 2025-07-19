@@ -3,19 +3,15 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
-// ✅ Import SpeedInsights once
+// ✅ Import analytics and speed insights once
+import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 
+// ✅ Single root rendering
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
-    
-    {/* ✅ Speed Insights inserted below */}
     <SpeedInsights />
-
-    {/* Optional message */}
-    {/* <p style={{ textAlign: "center", fontSize: "12px", color: "#888" }}>
-      Speed tracking enabled 🚀
-    </p> */}
+    <Analytics />
   </React.StrictMode>
 );
